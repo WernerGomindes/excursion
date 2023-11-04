@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0px auto;
+    width: 50%;
+}
+
+.mainHeading h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+}
+.comingSoon{
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.secondHead{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.thirdHead{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+}
+.foot{
+    text-align: right;
+    color: gray;
+}
+.vid{
+    width: 276px;
+        /* Adjust the size as needed */
+        height: 490px;
+        /* Adjust the size as needed */
+        border: 16px solid transparent;
+            /* Set a transparent border */
+            border-image: linear-gradient(90deg, #6E4B6B, #CBC2BB) 1;
+            /* Gradient border */
+            border-image-slice: 1;
+            /* Ensure the border covers the entire width */
+            border-radius: 20px;
+        /* Rounded corners for the phone frame */
+        overflow: hidden;
+        /* Clip the video within the frame */
+        box-shadow: 10px 10px 20px rgba(110,75,107, 0.9);
+        /* Add a shadow effect */
+        position: relative;
+        margin-left: 100px;
+}
+.img{
+    padding-left: 60px;
+}
